@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SelfStudy | Student Learning Resource Platform</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand">
+        <img
+          src="images/library.svg"
+          alt="Colourful row of books on a shelf, the StudyShelf logo"
+          class="logo"
+        />
+        <div>
+          <h1>SelfStudy</h1>
+          <p class="tagline">Free learning resources for every student</p>
+        </div>
+      </div>
+
+      <nav aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#materials">Study Materials</a></li>
+          <li><a href="#media">Video &amp; Audio</a></li>
+          <li><a href="#announcements">Announcements</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="page">
+      <main>
+        <section class="intro" id="home">
+          <h2>Learn at your own pace</h2>
+          <p>
+            SelfStudy brings lecture notes, tutorials, videos and podcasts
+            together in one place, so you can spend less time searching and more
+            time learning. Pick a course below to get started.
+          </p>
+        </section>
+
+        <section id="courses">
+          <h2>Featured courses</h2>
+          <div class="card-grid">
+            <article class="card">
+              <img
+                src="images/web-dev.svg"
+                alt="Browser window showing HTML and CSS code"
+              />
+              <div class="card-body">
+                <h3>Full Stack Web Development</h3>
+                <p>Build responsive websites with HTML, CSS, PHP and MySQL.</p>
+                <ul class="meta">
+                  <li>12 weeks</li>
+                  <li>Beginner</li>
+                </ul>
+                <a href="#materials" class="btn">View materials</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <img
+                src="images/databases.svg"
+                alt="Illustration of a database stack"
+              />
+              <div class="card-body">
+                <h3>Database Systems</h3>
+                <p>
+                  Design tables, write SQL queries and understand relationships.
+                </p>
+                <ul class="meta">
+                  <li>10 weeks</li>
+                  <li>Intermediate</li>
+                </ul>
+                <a href="#materials" class="btn">View materials</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <img
+                src="images/algorithms.svg"
+                alt="Bar chart with a rising line representing algorithm performance"
+              />
+              <div class="card-body">
+                <h3>Algorithms &amp; Problem Solving</h3>
+                <p>
+                  Learn sorting, searching and how to think through problems.
+                </p>
+                <ul class="meta">
+                  <li>8 weeks</li>
+                  <li>Intermediate</li>
+                </ul>
+                <a href="#materials" class="btn">View materials</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="materials">
+          <h2>Study materials</h2>
+          <p>
+            Download or open the latest notes and tutorials for each module.
+          </p>
+
+          <div class="materials-grid">
+            <article>
+              <h3>Lecture notes</h3>
+              <ul>
+                <li>
+                  <a
+                    href="https://developer.mozilla.org/en-US/docs/Learn/HTML"
+                    target="_blank"
+                    rel="noopener"
+                    >HTML basics: structure and semantics</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://developer.mozilla.org/en-US/docs/Learn/CSS"
+                    target="_blank"
+                    rel="noopener"
+                    >CSS fundamentals: the box model</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout"
+                    target="_blank"
+                    rel="noopener"
+                    >Layouts with Flexbox and Grid</a
+                  >
+                </li>
+              </ul>
+            </article>
+
+            <article>
+              <h3>Tutorials</h3>
+              <ol>
+                <li>
+                  <a
+                    href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+                    target="_blank"
+                    rel="noopener"
+                    >A complete guide to Flexbox</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://css-tricks.com/snippets/css/complete-guide-grid/"
+                    target="_blank"
+                    rel="noopener"
+                    >A complete guide to CSS Grid</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design"
+                    target="_blank"
+                    rel="noopener"
+                    >Responsive design with media queries</a
+                  >
+                </li>
+              </ol>
+            </article>
+
+            <article class="wide">
+              <h3>Reading list</h3>
+              <p>Recommended websites and references to go deeper:</p>
+              <ul class="inline-links">
+                <li>
+                  <a
+                    href="https://www.w3schools.com/"
+                    target="_blank"
+                    rel="noopener"
+                    >W3Schools</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://developer.mozilla.org/"
+                    target="_blank"
+                    rel="noopener"
+                    >MDN Web Docs</a
+                  >
+                </li>
+                <li>
+                  <a href="https://web.dev/learn" target="_blank" rel="noopener"
+                    >web.dev Learn</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.freecodecamp.org/"
+                    target="_blank"
+                    rel="noopener"
+                    >freeCodeCamp</a
+                  >
+                </li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section id="media">
+          <h2>Video and audio lessons</h2>
+
+          <figure class="video-figure">
+            <video controls poster="media/poster.jpg" preload="metadata">
+              <source src="media/study-tips.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            <figcaption>
+              Video lesson: three study habits that help you remember more.
+            </figcaption>
+          </figure>
+
+          <div class="audio-box">
+            <figure>
+              <img
+                src="images/study-group.svg"
+                alt="Group of students sitting together and studying"
+              />
+              <figcaption>Study group sessions run every Thursday.</figcaption>
+            </figure>
+            <div>
+              <h3>Focus music</h3>
+              <p>Play this calm audio while you read or revise.</p>
+              <audio controls>
+                <source src="media/study-focus.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+          </div>
+        </section>
+
+        <section id="announcements">
+          <h2>Announcements</h2>
+          <article class="notice">
+            <h3>Week 1 workshop is live</h3>
+            <p>
+              Submit your first workshop to the student server and push it to
+              GitHub on the <strong>week1</strong> branch.
+            </p>
+          </article>
+          <article class="notice">
+            <h3>Library opening hours extended</h3>
+            <p>
+              The learning centre is now open until 9 pm on weekdays during
+              assessment weeks.
+            </p>
+          </article>
+        </section>
+      </main>
+
+      <aside>
+        <section class="side-box">
+          <h2>Quick links</h2>
+          <ul>
+            <li><a href="#courses">All courses</a></li>
+            <li><a href="#materials">Download notes</a></li>
+            <li><a href="#media">Watch a lesson</a></li>
+            <li>
+              <a
+                href="https://fullstack.heraldcollege.edu.np/guide"
+                target="_blank"
+                rel="noopener"
+                >Server guide</a
+              >
+            </li>
+          </ul>
+        </section>
+
+        <section class="side-box">
+          <h2>Upcoming deadlines</h2>
+          <ul>
+            <li><strong>Mon:</strong> Workshop 1 submission</li>
+            <li><strong>Wed:</strong> Quiz on HTML</li>
+            <li><strong>Fri:</strong> Group project proposal</li>
+          </ul>
+        </section>
+
+        <section class="side-box">
+          <h2>Study tip</h2>
+          <p>
+            Short sessions with breaks beat one long cram. Try 25 minutes of
+            focus, then a 5 minute rest.
+          </p>
+        </section>
+      </aside>
+    </div>
+
+    <footer id="contact" class="site-footer">
+      <div class="footer-grid">
+        <section>
+          <h2>SelfStudy</h2>
+          <p>
+            A learning resource platform built for the 5CS045 Full Stack Web
+            Development workshop.
+          </p>
+        </section>
+        <section>
+          <h2>Explore</h2>
+          <ul>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#materials">Study materials</a></li>
+            <li><a href="#media">Video &amp; audio</a></li>
+          </ul>
+        </section>
+        <section>
+          <h2>Contact</h2>
+          <p>
+            Email:
+            <a href="mailto:help@studyshelf.example">self@study13.example</a>
+          </p>
+          <p>Learning Centre, Level 2</p>
+        </section>
+      </div>
+      <p class="copyright">&copy; 2026 SelfStudy. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
